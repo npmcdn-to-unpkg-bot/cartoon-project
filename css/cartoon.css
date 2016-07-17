@@ -1,3 +1,7 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -54,22 +58,23 @@ table {
 .head{
   position: fixed;
   width: 100%;
-  height: 35px;
-  background-color: #e2cc9c;
+  height: 70px;
+  z-index: 1;
 }
 
 .logo{
   float: left;
   width: 30%;
-  height: 35px;
+  height: 70px;
   }
 
 .logoname{
   text-align: center;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 30px;
+  line-height: 70px;
   font-weight: bold;
-   }
+  font-family: 'Indie Flower', cursive;
+  }
 
 .nav{
   float: right;
@@ -81,27 +86,50 @@ table {
   margin: 0;
   padding: 0;
   text-align: right;
-  line-height: 35px;
+  line-height: 70px;
 }
 
 .menu li{
   display: inline;
-  margin-right:40px;
+  margin-right:50px;
 }
 
 .menu li a{
   text-decoration: none;
+  font-size: 20px;
   color: #000;
+  font-family: 'Indie Flower', cursive;
 }
 
 .menu li a:hover{
-  color: #fff;
-  font-weight: bold;
+  font-size: 150%;
+  color: #f20a0a;
 }
 
 .container{
+  position: relative;
+  top: 70px;
   width: 100%;
   height: 100vh;
+  background: url(../img/head.jpg);
+  background-size: cover;
+}
+
+/*.container::after{
+  position: absolute;
+  content: "";
+  width: inherit;
+  height: inherit;
+  background-color: #8a8787;
+  opacity: 0.7;
+}*/
+
+.name{
+  float: right;
+}
+
+.name p{
+  float: right;
 }
 
 .footer{
