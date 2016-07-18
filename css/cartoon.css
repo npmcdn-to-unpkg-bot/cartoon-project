@@ -58,20 +58,23 @@ table {
 .head{
   position: fixed;
   width: 100%;
-  height: 70px;
+  height: 69px;
   z-index: 1;
+  background-color: #e8e8e8;
+  opacity: 0.9;
 }
+
 
 .logo{
   float: left;
   width: 30%;
-  height: 70px;
+  height: 69px;
   }
 
 .logoname{
   text-align: center;
   font-size: 30px;
-  line-height: 70px;
+  line-height: 69px;
   font-weight: bold;
   font-family: 'Indie Flower', cursive;
   }
@@ -86,7 +89,7 @@ table {
   margin: 0;
   padding: 0;
   text-align: right;
-  line-height: 70px;
+  line-height: 67px;
 }
 
 .menu li{
@@ -108,21 +111,13 @@ table {
 
 .container{
   position: relative;
-  top: 70px;
+  top: 69px;
   width: 100%;
   height: 100vh;
   background: url(../img/head.jpg);
   background-size: cover;
+  opacity: 0.6;
 }
-
-/*.container::after{
-  position: absolute;
-  content: "";
-  width: inherit;
-  height: inherit;
-  background-color: #8a8787;
-  opacity: 0.7;
-}*/
 
 .name{
   float: right;
