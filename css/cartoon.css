@@ -115,36 +115,39 @@ table {
   top: 69px;
   width: 100%;
   height: 100vh;
-  background: url(../img/head.jpg);
+  background: url(../img/head03.jpg);
   background-size: cover;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+  background-attachment: fixed;
 }
 
-.content-box{
+.container::after{
   position: absolute;
-  width: 50%;
-  top: 30%;
-  text-align: center;
-  transform: translateX(50%);
-}
-
-.content-box img{
-  width: 100px;
-  height: 100px;
-}
-
-.boxtitle{
-  font-size: 20px;
-  color: #000;
+  content: "";
+  width: inherit;
+  height: inherit;
+  background-color: #4C4C4C;
+  opacity: 0.46;
 }
 
 .container-about{
   position: relative;
   width: 100%;
   height: 100vh;
+}
+
+.about-box{
+  display: block;
+  text-align: center;
+  padding-top: 140px;
+}
+
+.about-title{
+  color: #000;
+}
+
+.about-box img{
+  width: 100px;
+  height: 100px;
 }
 
 .container-new{
