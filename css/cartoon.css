@@ -132,10 +132,10 @@ table {
 .container-about{
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 800px;
 }
 
-.about-box{
+.about-pic{
   display: block;
   text-align: center;
   padding-top: 140px;
@@ -143,11 +143,36 @@ table {
 
 .about-title{
   color: #000;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.about-box img{  
+.about-pic img{
   width: 100px;
   height: 100px;
+}
+
+.about-exp-left{
+  float:left;
+  margin: 40px 0 0 40px;
+  width: 40%;
+}
+
+.about-exp-left p{
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.about-pic-right{
+  float: right;
+  margin: 40px 40px 0 0;
+  width: 40%;
+}
+
+.about-pic-right img{
+  width: 500px;
+  height: 300px;
 }
 
 .container-new{
