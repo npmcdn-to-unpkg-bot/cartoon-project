@@ -19,7 +19,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -153,12 +152,14 @@ table {
 
 .about-exp-left{
   float:left;
-  margin: 120px 0 0 100px;
+  margin: 60px 0 0 100px;
   width: 40%;
 }
 
 .about-exp-title{
   font-size: 30px;
+  text-align: center;
+  font-family: 'Voltaire', sans-serif;
 }
 
 .about-exp-left p{
@@ -177,6 +178,54 @@ table {
 .about-pic-right img{
   width: 100%;
   height: 100%;
+}
+
+.exp{
+  position: relative;
+  top: 20px;
+  width: 100%;
+  height: 1100px;
+}
+
+.exp-title{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Voltaire', sans-serif;
+}
+
+.exp-left{
+  float: left;
+  width: 40%;
+  margin: 40px 0 0 100px;
+}
+
+.exp-left img{
+  width: 500px;
+  height: 320px;
+}
+
+.exp-left p{
+  padding-top: 10px;
+  font-size: 15px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.exp-right{
+  float: right;
+  width: 40%;
+  margin: 40px 100px 0 0;
+}
+
+.exp-right p{
+  font-size: 15px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.exp-right img{
+  width: 500px;
+  height: 600px;
 }
 
 .container-new{
