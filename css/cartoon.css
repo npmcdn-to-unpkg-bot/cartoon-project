@@ -18,6 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
+  font-size: 100%;
   border: 0;
   font: inherit;
   vertical-align: baseline;
@@ -51,192 +52,155 @@ table {
   position: relative;
   margin: 0 auto;
   width: 100%;
-  height: 100vh;
 }
 
 .head{
-  position: fixed;
+  position: relative;
+  margin: 0 auto;
   width: 100%;
-  height: 69px;
-  z-index: 1;
-  background-color: #e8e8e8;
-  opacity: 0.9;
+  height: 100vh;
+  background: url("../img/head01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-
-.logo{
-  float: left;
-  width: 30%;
-  height: 69px;
-  }
-
-.logoname{
-  text-align: center;
-  font-size: 30px;
-  line-height: 69px;
-  font-weight: bold;
-  font-family: 'Indie Flower', cursive;
-  }
+.head::after{
+  position: absolute;
+  content: "";
+  width: inherit;
+  height: inherit;
+  top: 0;
+  background-color: #fff;
+  opacity: 0.4;
+}
 
 .nav{
-  float: right;
-  width: 70%;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  opacity: 0.6;
+  z-index: 1;
 }
 
-.menu{
-  list-style-type: none;
-  margin: 0 60px 0 0;
-  padding: 0;
-  text-align: right;
-  line-height: 67px;
+.title{
+  position: absolute;
+  left: 100px;
+  top: 25px;
 }
 
-.menu li{
-  display: inline;
-  margin-right:50px;
-}
-
-.menu li a{
+.title a{
+  color: #fff;
+  font-size: 35px;
   text-decoration: none;
-  font-size: 20px;
-  color: #000;
-  font-family: 'Indie Flower', cursive;
 }
 
-.menu li a:hover{
-  font-size: 150%;
-  color: #f20a0a;
+ul.menu{
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  list-style-type: none;
+}
+
+ul.menu li{
+  display: inline;
+  margin-left: 30px;
+}
+
+ul.menu li a{
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.menu li a:hover{
+  color: #d74c4c;
+  font-size: 20px;
   cursor: pointer;
 }
 
 .container{
   position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 800px;
+}
+
+.footer{
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  background-color: #615f5f;
+}
+
+
+/*about main*/
+
+.about{
+  position: relative;
+  margin: 0 auto;
   width: 100%;
   height: 100vh;
-  background: url(../img/head03.jpg);
+  background: url("../img/du03.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.container::after{
+.about::after{
   position: absolute;
   content: "";
   width: inherit;
   height: inherit;
-  background-color: #4C4C4C;
-  opacity: 0.46;
+  top: 0;
+  background-color: #fff;
+  opacity: 0.4;
 }
 
-.container-about{
+/*news main*/
+
+.news{
   position: relative;
+  margin: 0 auto;
   width: 100%;
   height: 100vh;
+  background: url("../img/du01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.about-pic{
-  display: block;
-  text-align: center;
-  padding-top: 140px;
+.news::after{
+  position: absolute;
+  content: "";
+  width: inherit;
+  height: inherit;
+  top: 0;
+  background-color: #fff;
+  opacity: 0.4;
 }
 
-.about-title{
-  color: #000;
-  font-size: 30px;
-  font-weight: bold;
-}
+/*work main*/
 
-.about-pic img{
-  width: 100px;
-  height: 100px;
-}
-
-.about-exp-left{
-  float:left;
-  margin: 60px 0 0 100px;
-  width: 40%;
-}
-
-.about-exp-title{
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Voltaire', sans-serif;
-}
-
-.about-exp-left p{
-  margin-top: 30px;
-  text-align: justify;
-  line-height: 30px;
-  font-size: 15px;
-}
-
-.about-pic-right{
-  float: right;
-  margin: 50px 100px 0 0;
-  width: 40%;
-}
-
-.about-pic-right img{
-  width: 100%;
-  height: 100%;
-}
-
-.exp{
+.work{
   position: relative;
-  top: 20px;
-  width: 100%;
-  height: 1100px;
-}
-
-.exp-title{
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Voltaire', sans-serif;
-}
-
-.exp-left{
-  float: left;
-  width: 40%;
-  margin: 40px 0 0 100px;
-}
-
-.exp-left img{
-  width: 500px;
-  height: 320px;
-}
-
-.exp-left p{
-  padding-top: 10px;
-  font-size: 15px;
-  text-align: left;
-  line-height: 30px;
-}
-
-.exp-right{
-  float: right;
-  width: 40%;
-  margin: 40px 100px 0 0;
-}
-
-.exp-right p{
-  font-size: 15px;
-  text-align: left;
-  line-height: 30px;
-}
-
-.exp-right img{
-  width: 500px;
-  height: 600px;
-}
-
-.container-new{
-  position: relative;
+  margin: 0 auto;
   width: 100%;
   height: 100vh;
-  background-color: #e8e8e8;
+  background: url("../img/du02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-
-.footer{
-  width: 100%;
-  height: 80px;
+.work::after{
+  position: absolute;
+  content: "";
+  width: inherit;
+  height: inherit;
+  top: 0;
+  background-color: #fff;
+  opacity: 0.4;
 }
