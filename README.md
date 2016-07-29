@@ -1,2 +1,1 @@
-# cartoon-project
-杜福安工作室
+# 杜福安 Studio
