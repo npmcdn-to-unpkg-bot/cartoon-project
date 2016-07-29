@@ -67,7 +67,7 @@ table {
   position: absolute;
   content: "";
   width: inherit;
-  height:  inherit;
+  height: inherit;
   top: 0;
   background: rgba(183,179,179,0.46);
 }
