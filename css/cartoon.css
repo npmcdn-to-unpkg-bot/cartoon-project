@@ -74,9 +74,22 @@ table {
 
 .head img{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.head p{
+  position: absolute;
+  bottom: 30%;
+  right: 15%;
+  height: 70px;
+  width: 300px;
+  text-align: center;
+  line-height: 70px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
 }
 
 .nav{
@@ -85,7 +98,7 @@ table {
   width: 100%;
   height: 80px;
   background-color: rgba(0,0,0,0.3);
-  z-index: 1;
+  z-index: 2;
 }
 
 .title{
