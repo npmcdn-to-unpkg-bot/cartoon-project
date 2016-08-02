@@ -1,4 +1,3 @@
-/*reset main*/
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -53,6 +52,7 @@ table {
   position: relative;
   margin: 0 auto;
   width: 100%;
+  height: auto;
 }
 
 .head{
@@ -81,12 +81,10 @@ table {
 
 .head p{
   position: absolute;
-  bottom: 30%;
-  right: 15%;
-  height: 70px;
-  width: 300px;
+  bottom: 20%;
+  right: 10%;
   text-align: center;
-  line-height: 70px;
+  padding: 20px 20px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7);
   font-size: 25px;
@@ -98,7 +96,7 @@ table {
   width: 100%;
   height: 80px;
   background-color: rgba(0,0,0,0.6);
-  z-index: 2;
+  z-index: 1;
 }
 
 .title{
@@ -149,7 +147,6 @@ ul.menu li a:hover{
   position: relative;
   margin: 0 auto;
   width: 100%;
-  height: auto;
 }
 
 .book-box{
@@ -176,23 +173,23 @@ ul.menu li a:hover{
 }
 
 .book-title img{
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  /*max-width: 100%;
+  max-height: 100%;*/
 }
 
 .book-text{
   position: absolute;
   right: 40px;
-  top: 35%;
+  top: 25%;
   width: 60%;
   height: auto;
 }
 
 .book-text p{
   text-align: left;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 30px;
 }
 
@@ -207,31 +204,28 @@ ul.menu li a:hover{
 .contact{
   position: relative;
   margin: 0 auto;
-  top: 100px;
+  line-height: 200px;
   width: 1000px;
 }
 
-.contact ul{
-  list-style-type: none;
-}
-
-.contact ul li{
+.contact-menu{
+  color: #fff;
+  font-size: 20px;
   display: inline;
-  margin-left: 70px;
-  font-size: 20px;
-  color: #fff;
+  margin-left: 60px;
 }
 
-.contact ul li a{
-  font-size: 20px;
+.contact-menu a{
   color: #fff;
+  font-size: 20px;
   text-decoration: none;
 }
 
-.contact ul li a:hover{
+.contact-menu a:hover{
   color: #d74c4c;
   cursor: pointer;
 }
+
 
 /*about main*/
 
@@ -252,8 +246,7 @@ ul.menu li a:hover{
   width: inherit;
   height: inherit;
   top: 0;
-  background-color: #fff;
-  opacity: 0.4;
+  background: rgba(183,179,179,0.46);
 }
 
 .about-title-text{
@@ -282,7 +275,7 @@ ul.menu li a:hover{
 .about-title-exp{
   position: relative;
   margin: 40px auto;
-  text-align: left;
+  text-align: center;
   font-size: 30px;
   width: 80%;
   border-bottom: 1px solid;
@@ -297,64 +290,9 @@ ul.menu li a:hover{
 
 .about-text-exp p{
   margin: 5px auto;
-  text-align: left;
+  text-align: center;
   line-height: 40px;
   font-size: 15px;
-}
-
-.about-text-exp img{
-  position: absolute;
-  right: 50px;
-  bottom: 50px;
-  width: 300px;
-  height: 400px;
-}
-
-.about-title-cexp{
-  position: relative;
-  margin: 40px auto;
-  text-align: right;
-  font-size: 30px;
-  width: 80%;
-  border-bottom: 1px solid;
-  padding-bottom: 30px;
-}
-
-.about-text-cexp{
-  position: relative;
-  margin: 50px auto;
-  width: 80%;
-}
-
-.about-text-cexp p{
-  margin: 5px auto;
-  text-align: right;
-  line-height: 40px;
-  font-size: 15px;
-}
-
-.about-text-cexp img{
-  position: absolute;
-  left: 50px;
-  top: 40px;
-  width: 400px;
-  height: 600px;
-}
-
-.about-text-exp .about-work01{
-  position: absolute;
-  right: 20px;
-  top: 0;
-  width: 300px;
-  height: 400px;
-}
-
-.about-text-exp .about-work02{
-  position: absolute;
-  right: 20px;
-  top: 420px;
-  width: 300px;
-  height: 400px;
 }
 
 /*news main*/
@@ -364,20 +302,39 @@ ul.menu li a:hover{
   margin: 0 auto;
   width: 100%;
   height: 100vh;
-  background: url("../img/du01.png");
+  background: url("../img/newhead01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.news::after{
+/*.news::after{
   position: absolute;
   content: "";
   width: inherit;
   height: inherit;
   top: 0;
-  background-color: #fff;
-  opacity: 0.4;
+  background: rgba(183,179,179,0.46);*/
+/*}*/
+
+.newspic{
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  height: auto;
+}
+
+.newspic-box{
+  padding: 30px 0 30px 0;
+}
+
+.newspic-box p{
+  text-align: center;
+}
+
+.newspic-box img{
+  width: 100%;
+  height: 100%;
 }
 
 /*work main*/
@@ -393,12 +350,41 @@ ul.menu li a:hover{
   background-attachment: fixed;
 }
 
-.work::after{
+/*.work::after{
   position: absolute;
   content: "";
   width: inherit;
   height: inherit;
   top: 0;
-  background-color: #fff;
-  opacity: 0.4;
+  background: rgba(183,179,179,0.46);
+}*/
+
+.grid {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  background: #fff;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
 }
