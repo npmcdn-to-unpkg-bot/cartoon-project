@@ -1,11 +1,11 @@
 //slider show
-$('.head').slick({
+$('.duhead').slick({
   dots: true,
   infinite: true,
   speed: 500,
   fade: true,
   cssEase: 'linear',
-  arrows: false,
+  arrows: true,
   autoplay:true,
   autoplaySpeed: 5000
 });
