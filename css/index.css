@@ -240,7 +240,7 @@
     text-align: left;
   }
 
-  .about,.news,.work,.duhead,.duhead::after,.duimg{
+  .about,.news,.work,.duhead,.duhead::after,.duhead img{
     width: 100%;
     height: 500px;
   }
