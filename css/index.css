@@ -213,14 +213,6 @@
 
 
 @media screen and (max-width: 732px){
-  .about-text-con{
-    font-size: 10px;
-  }
-
-  .about-text-exp-p{
-    text-align: center;
-    font-size: 10px;
-  }
 
   .duhead,.duhead::after,.duimg,.about,.news,.work{
     width: 100%;
