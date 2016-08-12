@@ -184,6 +184,11 @@
 }
 
 /*RWD*/
+@media screen and (max-width: 1024px){
+  .grid {
+    width: 900px;
+  }
+}
 
 @media screen and (max-width: 768px){
 
@@ -212,10 +217,7 @@
   }
 
   .grid {
-    position: relative;
-    margin: 20px auto;
     width: 600px;
-    background: #fff;
   }
 }
 
