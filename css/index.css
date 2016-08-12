@@ -183,25 +183,7 @@
   background-attachment: fixed;
 }
 
-.du-workcon{
-  position: relative;
-  margin: 0 auto;
-  width: 1200px;
-}
-
 /*RWD*/
-
-@media screen and (max-width: 1280px){
-  .du-workcon{
-    position: relative;
-    margin: 20px auto;
-    width: 1200px;
-  }
-  .grid-sizer,
-  .grid-item {
-    width: 300px;
-  }
-}
 
 @media screen and (max-width: 768px){
 
@@ -229,15 +211,11 @@
     height: 400px;
   }
 
-  .du-workcon{
-    position: relative;
-    margin: 20px auto;
-    width: 600px;
-  }
   .grid-sizer,
   .grid-item {
     width: 300px;
   }
+
 }
 
 @media screen and (max-device-width: 480px){
@@ -269,13 +247,8 @@
     background-size: 100% 400px;
   }
 
-  .du-workcon{
-    position: relative;
-    margin: 20px auto;
-    width: 400px;
-  }
   .grid-sizer,
   .grid-item {
-    width: 400px;
+    width: 100%;
   }
 }
