@@ -1,8 +1,8 @@
 .grid {
-  display: block;
+  position: relative;
+  width: 90%;
   margin: 20px auto;
   left: 5%;
-  width: 90%;
   background: #fff;
 }
 

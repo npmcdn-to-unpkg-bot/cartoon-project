@@ -183,6 +183,12 @@
   background-attachment: fixed;
 }
 
+.du-workimg{
+  float: left;
+  display: block;
+  width: 300px;
+}
+
 /*RWD*/
 
 @media screen and (max-width: 768px){
