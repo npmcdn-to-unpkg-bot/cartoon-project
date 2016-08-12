@@ -211,10 +211,9 @@
     height: 400px;
   }
 
-  .grid {
-    position: relative;
-    margin: 0 auto;
-    width: 610px;
+  .grid-sizer,
+  .grid-item {
+    width: 300px;
   }
 }
 
@@ -247,9 +246,8 @@
     background-size: 100% 400px;
   }
 
-  .grid {
-    position: relative;
-    margin: 0 auto;
-    width: 310px;
+  .grid-sizer,
+  .grid-item {
+    width: 300px;
   }
 }
