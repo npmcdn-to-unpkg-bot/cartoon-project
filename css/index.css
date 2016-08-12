@@ -88,14 +88,6 @@
   color: #000;
 }
 
-.duhead-ot{
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  height: 100vh;
-  background-attachment: fixed;
-}
-
 /*about main*/
 
 .about{
@@ -243,4 +235,10 @@
     text-align: center;
     display: block;
   }
+
+  /*.grid-sizer,
+  .grid-item {
+    display: block;
+    width: 400px;
+  }*/
 }
