@@ -213,10 +213,14 @@
 
   .about,.work{
     background-position: top left;
+    width: 100%;
+    height: 400px;
   }
 
   .news{
-    background-position: top center; 
+    background-position: top center;
+    width: 100%;
+    height: 400px;
   }
 
   .du-conimg{
