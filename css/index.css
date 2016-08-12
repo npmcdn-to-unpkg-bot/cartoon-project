@@ -227,9 +227,9 @@
     text-align: left;
   }
 
-  .duhead,.duhead::after,.about,.news,.work{
+  .duhead,.about,.news,.work{
     width: 100%;
-    height: 270px;
+    height: 400px;
     background-size: contain;
   }
 
@@ -238,5 +238,10 @@
     height: 300px;
     text-align: center;
     display: block;
+  }
+
+  .duimg{
+    width: 100%;
+    height: 400px;
   }
 }
