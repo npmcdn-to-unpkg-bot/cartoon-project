@@ -185,8 +185,9 @@
 
 /*RWD*/
 @media screen and (max-width: 1024px){
-  .grid {
-    width: 900px;
+  .grid-sizer,
+  .grid-item {
+    width: 250px;
   }
 }
 
