@@ -1,5 +1,5 @@
 .grid {
-  position: relative;
+  display: block;
   margin: 20px auto;
   left: 5%;
   width: 90%;
