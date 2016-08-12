@@ -204,7 +204,7 @@
 
 @media screen and (max-width: 768px){
 
-  .duhead,.duhead::after,.duimg,.work,.about,.news{
+  .duhead,.duimg,.work,.about,.news{
     width: 100%;
     height: 400px;
   }
