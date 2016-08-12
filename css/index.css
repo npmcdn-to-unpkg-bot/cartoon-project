@@ -95,11 +95,11 @@
   margin: 0 auto;
   width: 100%;
   height: 100vh;
-  background-image: url("../img/du03.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: top center;
+  background-image: url("../img/du03.jpg");
 }
 
 .about-title-text{
@@ -206,19 +206,7 @@
 
 @media screen and (max-width: 768px){
 
-  .duhead,.duhead::after,.duimg{
-    width: 100%;
-    height: 400px;
-  }
-
-  .about,.work{
-    background-position: top left;
-    width: 100%;
-    height: 400px;
-  }
-
-  .news{
-    background-position: top center;
+  .duhead,.duhead::after,.duimg,.work,.about,.news{
     width: 100%;
     height: 400px;
   }
@@ -247,10 +235,4 @@
     text-align: center;
     display: block;
   }
-
-  /*.grid-sizer,
-  .grid-item {
-    display: block;
-    width: 400px;
-  }*/
 }
