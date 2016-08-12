@@ -210,11 +210,6 @@
     width: 100%;
     height: 400px;
   }
-
-  .grid-sizer,
-  .grid-item {
-    width: 400px;
-  }
 }
 
 @media screen and (max-device-width: 480px){
@@ -244,10 +239,5 @@
     width: 100%;
     height: 400px;
     background-size: 100% 400px;
-  }
-
-  .grid-sizer,
-  .grid-item {
-    width: 400px;
   }
 }
