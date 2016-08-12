@@ -184,12 +184,6 @@
 }
 
 /*RWD*/
-@media screen and (min-width: 1024px){
-  .grid-sizer,
-  .grid-item {
-    width: 250px;
-  }
-}
 
 @media screen and (max-width: 768px){
 
@@ -218,7 +212,9 @@
   }
 
   .grid {
-    width: 600px;
+    position: relative;
+    margin: 0 auto;
+    width: 610px;
   }
 }
 
@@ -252,6 +248,8 @@
   }
 
   .grid {
-    width: 300px;
+    position: relative;
+    margin: 0 auto;
+    width: 310px;
   }
 }
