@@ -162,14 +162,14 @@
   background-position: top center;
 }
 
-.news::after{
+/*.news::after{
   position: absolute;
   content: "";
   width: inherit;
   height: inherit;
   top: 0;
   background: rgba(0,0,0,0.3);
-}
+}*/
 
 .newspic{
   position: relative;
@@ -224,9 +224,9 @@
     text-align: left;
   }
 
-  .duhead,.duhead::after,.duimg,.about,.news,.news::after,.work{
+  .duhead,.duhead::after,.duimg,.about,.news,.work{
     width: 100%;
-    height: 270px;
+    height: 400px;
     background-size: contain;
   }
 
