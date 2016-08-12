@@ -54,7 +54,7 @@
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  padding: 20px;
 }
 
 .du-context{
@@ -211,7 +211,7 @@
 
   .du-conimg{
     width: 200px;
-    height: 400px;
+    height: 300px;
     text-align: center;
     display: block;
   }
@@ -230,7 +230,7 @@
 
   .du-conimg{
     width: 200px;
-    height: 400px;
+    height: 300px;
     text-align: center;
     display: block;
   }
