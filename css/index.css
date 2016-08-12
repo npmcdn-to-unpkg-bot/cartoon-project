@@ -240,4 +240,9 @@
     height: 400px;
     background-size: 100% 400px;
   }
+
+  .grid-sizer,
+  .grid-item {
+    width: 320px;
+  }
 }
