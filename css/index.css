@@ -206,7 +206,7 @@
 
   .duhead,.duhead::after,.duimg,.work,.about,.news{
     width: 100%;
-    height: 400px;
+    height: 270px;
   }
 
   .du-conimg{
@@ -224,7 +224,7 @@
 
   .duhead,.duhead::after,.about,.news,.work{
     width: 100%;
-    height: 400px;
+    height: 270px;
     background-size: contain;
   }
 
