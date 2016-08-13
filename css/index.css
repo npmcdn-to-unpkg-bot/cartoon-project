@@ -191,6 +191,20 @@
 
 /*RWD*/
 
+@media screen and (max-width: 1200px){
+  .grid {
+    position: relative;
+    width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 500px;
+  }
+}
+
 @media screen and (max-width: 970px){
   .grid {
     position: relative;
