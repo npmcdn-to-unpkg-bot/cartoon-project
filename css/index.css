@@ -146,7 +146,7 @@
   /*background: url("../img/newhead01.jpg");*/
   background-image: url("../img/du04.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-attachment: fixed;
   background-position: top center;
 }
@@ -179,7 +179,7 @@
   height: 100vh;
   background-image: url("../img/du05.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-attachment: fixed;
 }
 
