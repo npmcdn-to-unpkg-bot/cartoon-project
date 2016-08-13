@@ -191,7 +191,7 @@
 
 /*RWD*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 720px){
 
   .duhead,.duimg{
     width: 100%;
@@ -223,7 +223,7 @@
   }
 }
 
-@media screen and (max-device-width: 320px){
+@media screen and (max-device-width: 480px){
   .about-text-exp-p{
     text-align: left;
   }
