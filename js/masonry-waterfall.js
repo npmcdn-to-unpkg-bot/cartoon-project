@@ -9,7 +9,7 @@ var $grid = $('.grid').masonry({
 //   $grid.masonry();
 // });
 $(function(){
-	$('.container').imagesLoaded(function () {
+	$('.grid').imagesLoaded(function () {
         $('.grid').masonry({
             itemSelector: '.grid-item',
             columnWidth: 364,
