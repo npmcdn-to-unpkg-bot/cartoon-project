@@ -282,6 +282,20 @@
   }
 }
 
+@media screen and (max-device-width: 736px){
+  .grid {
+    position: relative;
+    width: 600px;
+    margin: 20px auto;
+    background: #fff;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 300px;
+  }
+}
+
 @media screen and (max-device-width: 480px){
   .about-text-exp-p{
     text-align: left;
