@@ -5,6 +5,6 @@ var $grid = $('.grid').masonry({
   columnWidth: '.grid-sizer'
 });
 // layout Isotope after each image loads
-$grid.imagesLoaded(body).progress( function() {
+$grid.imagesLoaded().progress( function() {
   $grid.masonry();
 });
