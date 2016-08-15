@@ -2,18 +2,15 @@
 var $grid = $('.grid').masonry({
   itemSelector: '.grid-item',
   percentPosition: true,
-  columnWidth: '.grid-sizer'
+  columnWidth: '.grid-sizer',
+  animate:true
 });
 // layout Isotope after each image loads
 // $grid.imagesLoaded().progress( function() {
 //   $grid.masonry();
 // });
 $(function(){
-	$('.grid').imagesLoaded(function () {
-        $('.grid').masonry({
-            itemSelector: '.grid-item',
-            columnWidth: 364,
-            animate:true
-        });
+	$('.container-fluid').imagesLoaded(function () {
+    $grid.masonry();
 	});
 });
