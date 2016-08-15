@@ -285,14 +285,14 @@
 @media screen and (max-width: 736px){
   .grid {
     position: relative;
-    width: 600px;
+    width: 400px;
     margin: 20px auto;
     background: #fff;
   }
 
   .grid-sizer,
   .grid-item {
-    width: 600px;
+    width: 200px;
   }
 }
 
