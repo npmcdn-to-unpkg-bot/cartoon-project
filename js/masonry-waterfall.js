@@ -9,8 +9,11 @@ var $grid = $('.grid').masonry({
 //   $grid.masonry();
 // });
 $(function(){
-var $container = $('.container');
-$container.imagesLoaded(function(){
-$container.masonry(); 
-});
+	$('.container').imagesLoaded(function () {
+        $('.grid').masonry({
+            itemSelector: '.grid-item',
+            columnWidth: 364,
+            animate:true
+        });
+	});
 });
