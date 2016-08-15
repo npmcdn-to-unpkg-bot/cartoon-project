@@ -11,6 +11,6 @@ var $grid = $('.grid').masonry({
 // });
 $(function(){
 	$('.container-fluid').imagesLoaded(function () {
-    $grid
+    $grid();
 	});
 });
