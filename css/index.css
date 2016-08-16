@@ -58,13 +58,16 @@
   height: 100vh;
 }
 
-.duhead p{
+.du-text{
   position: relative;
+  margin: 0 auto;
+  width: 480px;
   bottom: 100px;
   text-align: center;
-  padding: 10px 10px;
+  padding: 10px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
 }
 
 .du-context{
@@ -220,14 +223,14 @@
 @media screen and (max-width: 970px){
   .grid {
     position: relative;
-    width: 800px;
+    width: 700px;
     margin: 20px auto;
     background: #fff;
   }
 
   .grid-sizer,
   .grid-item {
-    width: 400px;
+    width: 350px;
   }
 
   .duhead,.duimg{
@@ -240,6 +243,11 @@
     width: 100%;
     height: 450px;
     background-size: 100% 450px;
+  }
+
+  .du-text{
+    width: 480px;
+    font-size: 20px;
   }
 }
 
@@ -279,6 +287,11 @@
   .grid-sizer,
   .grid-item {
     width: 300px;
+  }
+
+  .du-text{
+    width: 320px;
+    font-size: 15px;
   }
 }
 
@@ -335,5 +348,10 @@
   .grid-sizer,
   .grid-item {
     width: 300px;
+  }
+
+  .du-text{
+    width: 250px;
+    font-size: 10px;
   }
 }

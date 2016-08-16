@@ -14,3 +14,7 @@
   right: 25px;
   z-index: 1;
 }
+
+.slick-next:before {
+    color:black !important;
+}
