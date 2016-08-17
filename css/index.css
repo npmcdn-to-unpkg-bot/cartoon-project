@@ -19,10 +19,11 @@
 
 .du-contitle{
   position: relative;
-  margin: 0 auto;
+  margin: 30px auto;
   width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
+  border-bottom: 1px solid;
 }
 
 .du-footer{
@@ -70,13 +71,33 @@
   font-size: 20px;
 }
 
+.du-row{
+  padding: 10px 0 10px 0;
+}
+
+.du-row-bg{
+  padding: 10px 0 10px 0;
+  background-color: #f3f3f3;
+}
+
+.du-context-box{
+  display: table;
+  height: 200px;
+}
+
 .du-context{
   text-align: justify;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 40px;
+  font-size: 15px;
 }
 
 .du-conimg{
-  width: 100%;
+  display: block;
+  width: 200px;
   margin: 0 auto;
+  height: 300px;
   text-align: center;
 }
 
@@ -195,6 +216,7 @@
 /*RWD*/
 
 @media screen and (max-width: 1200px){
+
   .grid {
     position: relative;
     width: 1000px;
@@ -221,6 +243,19 @@
 }
 
 @media screen and (max-width: 970px){
+  .du-context-box{
+    display: table;
+    height: 200px;
+  }
+
+  .du-context{
+    text-align: justify;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 15px;
+  }
+
   .grid {
     position: relative;
     width: 700px;
@@ -277,6 +312,16 @@
     height: 400px;
   }
 
+  .du-context-box{
+    height: auto;
+  }
+
+  .du-context{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 15px;
+  }
+
   .grid {
     position: relative;
     width: 600px;
@@ -306,6 +351,12 @@
   .grid-sizer,
   .grid-item {
     width: 200px;
+  }
+
+  .du-btn{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
   }
 }
 
@@ -353,5 +404,11 @@
   .du-text{
     width: 250px;
     font-size: 10px;
+  }
+
+  .du-btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 }
