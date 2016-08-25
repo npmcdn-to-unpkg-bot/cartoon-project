@@ -4,45 +4,55 @@
 }
 
 .dunav-text-title{
-  font-family: 'Indie Flower';
+  font-family: 'Baloo Da', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
 }
 
 .dunav-text{
-  font-family: 'Indie Flower';
+  font-family: 'Baloo Da', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
 }
 
+.du-container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .du-contitle{
   position: relative;
   margin: 30px auto;
-  width: 100%;
+  width: 300px;
+  height: 50px;
   text-align: center;
+  line-height: 50px;
   padding: 5px;
-  border-bottom: 1px solid;
+  border: 1px solid;
+  font-family: 'Baloo Da', cursive;
 }
 
 .du-footer{
-  margin-top: 50px;
-  padding: 40px 0 40px;
   background-color: rgba(0, 0, 0, 0.7);
+  height: auto;
 }
 
-.du-fontcolor,.du-fontcolor-a{
+.du-footer-btn{
+  line-height: 80px;
+}
+
+.du-fontcolor{
+  line-height: 60px;
   color: #ffffff;
-}
-
-.du-fontcolor-a:hover{
-  color: #f21818;
-  text-decoration: none;
+  text-align: left;
 }
 
 .du-copyright p{
   width: 100%;
+  height: 80px;
+  line-height: 80px;
   color: #000;
 }
 
@@ -72,13 +82,10 @@
   border-radius: 10px;
 }
 
-.du-row{
-  padding: 10px 0 10px 0;
-}
-
 .du-row-bg{
-  padding: 10px 0 10px 0;
-  background-color: #f3f3f3;
+  padding: 20px 0 20px 0;
+  box-shadow: 1px 2px 12px 0px rgba(20%,20%,40%,0.5);
+  margin: 10px 0 10px 0;
 }
 
 .du-context-box{
@@ -104,32 +111,17 @@
 
 /*about*/
 
-.about{
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  height: 100vh;
-  background-image: url("../img/du03.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-attachment: fixed;
-  background-position: top center;
-}
-
 .about-title-text{
   position: relative;
-  margin: 40px auto;
+  margin: 0 auto;
   text-align: center;
-  font-size: 30px;
-  width: 80%;
-  border-bottom: 1px solid;
-  padding-bottom: 30px;
+  margin: 20px 0 20px 0;
+  font-size: 40px;
 }
 
 .about-text{
   position: relative;
   margin: 50px auto;
-  width: 80%;
 }
 
 .about-text-con{
@@ -144,44 +136,27 @@
   margin: 40px auto;
   text-align: center;
   font-size: 30px;
-  width: 80%;
   border-bottom: 1px solid;
   padding-bottom: 30px;
 }
 
 .about-text-exp{
   position: relative;
-  margin: 50px auto;
-  width: 80%;
+  margin: 5px auto;
+  padding-left: 40px;
 }
 
 .about-text-exp-p{
-  margin: 5px auto;
   line-height: 40px;
   font-size: 15px;
 }
 
+.du-aboutbook{
+  display: block;
+  margin: 5px auto;
+}
+
 /*news*/
-
-.news{
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  height: 100vh;
-  /*background: url("../img/newhead01.jpg");*/
-  background-image: url("../img/du04.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-attachment: fixed;
-  background-position: top center;
-}
-
-.newspic{
-  position: relative;
-  margin: 0 auto;
-  width: 60%;
-  height: auto;
-}
 
 .newspic-box{
   padding: 30px 0 30px 0;
@@ -196,18 +171,6 @@
 }
 
 /*work*/
-
-.work{
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  height: 100vh;
-  background-image: url("../img/du05.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-attachment: fixed;
-}
-
 .du-workimg{
   float: left;
   display: block;
@@ -236,10 +199,18 @@
     background-size: contain;
   }
 
-  .work,.about,.news{
-    width: 100%;
-    height: 500px;
-    background-size: 100% 500px;
+  .du-aboutbook{
+    display: block;
+    margin: 25px auto;
+  }
+
+  .about-text-exp{
+    margin-top: 20px;
+  }
+
+  .about-text-exp-p{
+    line-height: 35px;
+    font-size: 15px;
   }
 }
 
@@ -275,10 +246,11 @@
     background-size: contain;
   }
 
-  .work,.about,.news{
-    width: 100%;
-    height: 450px;
-    background-size: 100% 450px;
+  .about-text-exp{
+    display: block;
+    margin: 20px auto;
+    padding-left: 50px;
+    text-align: left;
   }
 
   .du-text{
@@ -299,12 +271,6 @@
     width: 100%;
     height: 400px;
     background-size: contain;
-  }
-
-  .work,.about,.news{
-    width: 100%;
-    height: 400px;
-    background-size: 100% 400px;
   }
 
   .du-conimg{
@@ -342,8 +308,8 @@
   }
 
   .du-text{
-    width: 320px;
-    font-size: 15px;
+    width: 500px;
+    font-size: 20px;
   }
 
   .du-btn{
@@ -371,6 +337,13 @@
     margin: 20px auto;
     text-align: center;
   }
+
+  .about-text-exp{
+    display: block;
+    margin: 20px auto;
+    padding-left: 20px;
+    text-align: left;
+  }
 }
 
 @media screen and (max-device-width: 480px){
@@ -396,10 +369,11 @@
     height: 400px;
   }
 
-  .work,.about,.news{
-    width: 100%;
-    height: 350px;
-    background-size: 100% 350px;
+  .about-text-exp{
+    display: block;
+    margin: 20px auto;
+    padding-left: 20px;
+    text-align: left;
   }
 
   .grid {
@@ -416,12 +390,16 @@
 
   .du-text{
     width: 250px;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .du-btn{
     display: block;
     margin: 20px auto;
+    text-align: center;
+  }
+
+  .du-fontcolor{
     text-align: center;
   }
 }
