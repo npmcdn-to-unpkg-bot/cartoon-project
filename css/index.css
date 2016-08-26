@@ -216,7 +216,14 @@
   }
 
   .du-fontcolor{
+    text-align: center;
     font-size: 15px;
+  }
+
+  .du-footer-btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
@@ -271,7 +278,14 @@
   }
 
   .du-fontcolor{
+    text-align: center;
     font-size: 20px;
+  }
+
+  .du-footer-btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
