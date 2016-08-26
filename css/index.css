@@ -295,6 +295,12 @@
     font-size: 20px
   }
 
+  .du-btn{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 768px){
@@ -347,7 +353,7 @@
   .du-btn{
     display: block;
     margin: 20px auto;
-    text-align: center;
+    width: 100%;
   }
 
   .du-fonttxt-c{
@@ -384,6 +390,12 @@
 
   .du-fonttxt-c{
     text-align: left;
+  }
+
+  .du-btn{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -445,10 +457,26 @@
   }
 
   .du-copyright p{
-    font-size: 10px;
+    font-size: 15px;
   }
 
+  .du-btn{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+  }
+}
 
+@media screen and (max-device-width: 360px){
+  .du-copyright{
+    width: 100%;
+    height: 20px;
+  }
+
+  .du-copyright p{
+    line-height: 20px;
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-device-width: 320px){
@@ -463,6 +491,12 @@
 
   .du-copyright p{
     line-height: 20px;
-    color: #000;
+    font-size: 10px;
+  }
+
+  .du-btn{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
   }
 }
