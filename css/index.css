@@ -153,12 +153,13 @@
 .du-text{
   position: absolute;
   margin: 0 auto;
-  top: 50%;
+  top: 40%;
   left: 0;
   right: 0;
   text-align: center;
   color: #fff;
   font-size: 30px;
+  line-height: 80px;
 }
 
 .du-row-bg{
@@ -326,12 +327,6 @@
     text-align: center;
   }
 
-  .du-btn{
-    display: block;
-    margin: 20px auto;
-    width: 100%;
-  }
-
 }
 
 @media screen and (max-width: 768px){
@@ -372,7 +367,7 @@
   }
 
   .du-text{
-    top: 50%;
+    top: 40%;
     font-size: 30px;
   }
 
@@ -455,7 +450,7 @@
 
   .du-text{
     width: 300px;
-    top: 50%;
+    top: 40%;
     font-size: 20px;
   }
 }
@@ -492,7 +487,7 @@
 
   .du-text{
     width: 300px;
-    top: 50%;
+    top: 40%;
     font-size: 20px;
   }
 }

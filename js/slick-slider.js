@@ -5,7 +5,8 @@ $('.duhead').slick({
   speed: 500,
   fade: true,
   cssEase: 'linear',
-  arrows: 0,
-  autoplay:true,
+  arrows: false,
+  autoplay: true,
   autoplaySpeed: 5000,
+  draggable: true,
 });
