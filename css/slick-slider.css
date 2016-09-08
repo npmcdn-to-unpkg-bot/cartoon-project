@@ -10,11 +10,20 @@
   z-index: 1;
 }
 
-.slick-next{
-  right: 25px;
-  z-index: 1;
+.slick-dots li{
+  background-color: #fff;
+  border-radius: 50%;
 }
 
-.slick-next:before {
-    color:black !important;
+
+/*.slick-next{
+  right: 25px;
+  z-index: 1;
+  margin-top: 50px;
 }
+
+.slick-prev{
+  left: 25px;
+  z-index: 1;
+  margin-top: 50px;
+}*/
